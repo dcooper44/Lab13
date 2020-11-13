@@ -1,0 +1,13 @@
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\bin\Debug\netcoreapp3.1\RoShamBo.exe
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\bin\Debug\netcoreapp3.1\RoShamBo.deps.json
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\bin\Debug\netcoreapp3.1\RoShamBo.runtimeconfig.json
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\bin\Debug\netcoreapp3.1\RoShamBo.runtimeconfig.dev.json
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\bin\Debug\netcoreapp3.1\RoShamBo.dll
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\bin\Debug\netcoreapp3.1\RoShamBo.pdb
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\obj\Debug\netcoreapp3.1\RoShamBo.csprojAssemblyReference.cache
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\obj\Debug\netcoreapp3.1\RoShamBo.csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\obj\Debug\netcoreapp3.1\RoShamBo.AssemblyInfoInputs.cache
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\obj\Debug\netcoreapp3.1\RoShamBo.AssemblyInfo.cs
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\obj\Debug\netcoreapp3.1\RoShamBo.dll
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\obj\Debug\netcoreapp3.1\RoShamBo.pdb
+C:\Users\dylan\OneDrive\Documents\GrandCircus\Week 5\Lab 13\RoShamBo\RoShamBo\obj\Debug\netcoreapp3.1\RoShamBo.genruntimeconfig.cache
