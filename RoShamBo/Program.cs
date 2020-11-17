@@ -8,68 +8,43 @@ namespace RoShamBo
     {
         static void Main(string[] args)
         {
-            var test = new PlayerThree();
+            var keepRunning = true;
+            while (keepRunning)               
+                {
+                    var test = new RoShamBoApp();
 
-            Console.WriteLine((test.GetRoshamBo()));
+                    test.runRoShamBoApp();
 
+                    keepRunning = ContinuePlaying();
+                }
 
-
-                
-            
         }
-    }
 
 
-    public abstract class Player
-    {
-        public string roshamboValue { get; set; }
-        public string playerName { get; set; }
-
-
-         public abstract RoShamBo GetRoshamBo();    
-                
-    }
-
-
-    //player that always selects rock
-    public class TheJets
-    {
-        public RoShamBo RoShamBoValue = RoShamBo.Rock;
-
-        
-       
-    }
-
-
-    public class TheSharks
-    {
-
-       
-
-        //GetRoshamBo();
-
-    }
-
-
-    public class PlayerThree : Player
-    {
-        public override RoShamBo GetRoshamBo()
+        public static bool ContinuePlaying()
         {
-            var rnd = new Random();
-            int roShamBoNumberValue = rnd.Next(0, 3);
+            var invalidInput = true;
+            do
+            {
+                Console.WriteLine("Do You Want to Play Again? (y/n)\n");
+                var userCommand = Console.ReadLine();
+                if (userCommand.Equals("y", StringComparison.OrdinalIgnoreCase) || userCommand.Equals("yes", StringComparison.OrdinalIgnoreCase))
+                {
+                    return true;
+                }
+                else if (userCommand.Equals("n", StringComparison.OrdinalIgnoreCase) || userCommand.Equals("no", StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Thank you for playing");
+                    return false;
+                }
+                else
+                {
+                    Console.WriteLine("That is not a valid selection");
+                    continue;
 
-            Enum.TryParse<RoShamBo>(roShamBoNumberValue.ToString(), out RoShamBo RoShamBoSelection);
-
-            return RoShamBoSelection;
+                }
+            } while (invalidInput);
+            return true;
         }
-       
-    }
-
-
-    public enum RoShamBo
-    {
-        Rock = 0,
-        Paper = 1,
-        Scissors = 2
     }
 }
